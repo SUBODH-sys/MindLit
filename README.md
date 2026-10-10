@@ -2,13 +2,13 @@
 
 **🔗 Live demo: [blissbotragproject.streamlit.app](https://blissbotragproject.streamlit.app/)**
 
-Blissbot is a Retrieval-Augmented Generation (RAG) chatbot that answers mental-health
+MindLit is a Retrieval-Augmented Generation (RAG) chatbot that answers mental-health
 education questions using a curated Q&A corpus (largely sourced from NIMH). It combines
 dense and lexical retrieval, a Groq-hosted LLM for generation, and a two-stage guardrail
 that detects crisis language and responds with hotline resources instead of a
 generated answer.
 
-> ⚠️ **Not a clinical tool.** Blissbot is strictly educational. It does not diagnose,
+> ⚠️ **Not a clinical tool.** MindLit is strictly educational. It does not diagnose,
 > treat, or provide crisis counseling. See [Safety & Guardrails](#safety--guardrails)
 > below.
 
