@@ -1,6 +1,6 @@
 # 🌱MindLit: Mental Health Literacy RAG Assistant
 
-**🔗 Live demo: [blissbotragproject.streamlit.app](https://blissbotragproject.streamlit.app/)**
+**🔗 Live demo: [mindlitragproject.streamlit.app](https://mindlitragproject.streamlit.app/)**
 
 MindLit is a Retrieval-Augmented Generation (RAG) chatbot that answers mental-health
 education questions using a curated Q&A corpus (largely sourced from NIMH). It combines
