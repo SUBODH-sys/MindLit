@@ -1,4 +1,4 @@
-# 🌱 Mental Health Education RAG Chatbot
+# 🌱MindLit: Mental Health Literacy RAG Assistant
 
 **🔗 Live demo: [blissbotragproject.streamlit.app](https://blissbotragproject.streamlit.app/)**
 
