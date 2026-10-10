@@ -106,7 +106,7 @@ def detect_crisis(text: str) -> bool:
 def crisis_response(region: str = "US") -> str:
     lines = [
         "I'm really glad you reached out, and I want to make sure you get support "
-        "beyond what I can offer here. I'm an educational chatbot, not a crisis service, "
+        "beyond what I can offer here. I'm an Literacyal chatbot, not a crisis service, "
         "but real help is available right now:",
         "",
     ]
@@ -283,7 +283,7 @@ def retrieve(query: str, retriever: HybridRetriever, top_k: int = TOP_K):
     return retriever.retrieve(query, top_k=top_k)
 
 
-SYSTEM_PROMPT = """You are Blissbot, a mental health EDUCATION assistant. Your role is strictly
+SYSTEM_PROMPT = """You are MindLit, a mental health Literacy assistant. Your role is strictly
 educational and supportive you are not a therapist, doctor, or crisis counselor.
 
 Rules you must follow:
@@ -322,12 +322,12 @@ Answer (concise, plain language):"""
 # Streamlit UI
 
 
-st.set_page_config(page_title="Blissbot: Mental Health Education", page_icon="🌱", layout="wide")
+st.set_page_config(page_title="MindLit: Mental Health Literacy Assistant", page_icon="🌱", layout="wide")
 
 with st.sidebar:
-    st.markdown("### 🌱 About Blissbot")
+    st.markdown("### 🌱 About MindLit")
     st.markdown(
-        "Blissbot is an educational chatbot. It shares general information about mental "
+        "MindLit is an educational chatbot. It shares general information about mental "
         "health topics drawn from NIMH resources and curated Q&A datasets. **It is not a "
         "substitute for professional care, therapy, or crisis intervention.**"
     )
@@ -345,7 +345,7 @@ with st.sidebar:
         st.session_state.messages = []
         st.rerun()
 
-st.title("🌱 Blissbot")
+st.title("🌱 MindLit")
 st.caption("A virtual mental health educator: information, not diagnosis.")
 
 if "messages" not in st.session_state:
@@ -353,7 +353,7 @@ if "messages" not in st.session_state:
         {
             "role": "assistant",
             "content": (
-                "Hi, I'm Blissbot. I can help explain mental health topics, coping "
+                "Hi, I'm MindLit. I can help explain mental health topics, coping "
                 "concepts, and where to find support. What's on your mind?"
             ),
         }
@@ -408,7 +408,7 @@ if user_input:
 
 st.divider()
 st.caption(
-    "Blissbot provides general educational information only and cannot replace "
+    "MindLit provides general educational information only and cannot replace "
     "professional diagnosis or treatment. In an emergency, call 911 (US) or your local "
     "emergency number."
 )
