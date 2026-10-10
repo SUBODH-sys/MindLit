@@ -1,4 +1,4 @@
-# 🌱 Blissbot: Mental Health Education RAG Chatbot
+# 🌱 Mental Health Education RAG Chatbot
 
 **🔗 Live demo: [blissbotragproject.streamlit.app](https://blissbotragproject.streamlit.app/)**
 
